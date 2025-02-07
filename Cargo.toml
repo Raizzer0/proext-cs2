@@ -1,0 +1,38 @@
+[package]
+name = "proext"
+version = "0.1.2"
+authors = ["Snipcola"]
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+lazy_static = "1.5.0"
+imgui = "0.11.0"
+imgui-winit-support = "0.11.0"
+imgui-glow-renderer = "0.11.0"
+mint = "0.5.9"
+serde = { version = "1.0.216", features = ["derive"] }
+serde_json = "1.0.133"
+directories = "6.0.0"
+windows = { version = "0.59.0", features = [
+    "Win32_Foundation",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_Graphics_Gdi",
+    "Win32_System_Threading",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_Memory",
+    "Win32_System_Diagnostics_ToolHelp",
+] }
+mki = "0.2.3"
+ureq = "3.0.3"
+glow = "0.12.0"
+glutin = "0.29.1"
+rand = "0.9.0"
+indexmap = "2.7.0"
+open = "5.3.1"
+toml = "0.8.19"
+semver = "1.0.24"
+
+[build-dependencies]
+winres = "0.1.12"
