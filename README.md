@@ -1,7 +1,5 @@
 <div align = "center">
 
-<img src="assets/banner.png" alias="banner" width="450"/>
-
 _An open-source, customizable cheat for Counter-Strike 2._
 
 </div>
